@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./controle_style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-</body>
+
+    <body>
+        <div class="container">
+            <h1>ToDo App</h1>
+            <table id="mainTable">
+                <tr>
+                    <th>Nr</th>
+                    <th>Message</th>
+                </tr>
+                <tr>
+                    <button id="removeAll">Remove All Tasks</button>
+                    <button id="removeSelected">Remove Selected Task</button>
+                </tr>
+                <tr>
+                    <td><input id="taskMsg" type="text">
+                        <button id="addTask">Add</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="./app.js"></script>
+
+    </body>
+
 </html>
